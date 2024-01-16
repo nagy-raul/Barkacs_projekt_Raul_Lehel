@@ -164,3 +164,21 @@ body{
   font-style: normal;
   line-height: normal; 
 }
+
+.szerszamok{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 306px;
+  height: 231px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.szerszamok:hover{
+  cursor: pointer;
+  border: 5px black solid;
+}
