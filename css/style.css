@@ -121,6 +121,7 @@ body{
   border: #000 10px double;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 25px;
 }
 
 .myself{
@@ -157,4 +158,10 @@ body{
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
