@@ -205,3 +205,15 @@ ul {
   color: white;
   transform: rotateY(180deg);
 }
+
+.team{
+  color: #000;
+  font-family: "Josefin Slab";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  border: 5px solid black;
+  margin-top: 15px;
+}
