@@ -201,7 +201,7 @@ ul {
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #A6987F;
   color: white;
   transform: rotateY(180deg);
 }
