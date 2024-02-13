@@ -110,7 +110,7 @@ body{
 
 .faanyag:hover{
   cursor: pointer;
-  border: 5px black solid;
+  transform: scale(1.2);
 }
 
 .nyitvatartas{
@@ -150,7 +150,7 @@ body{
 
 .szerszamok:hover{
   cursor: pointer;
-  border: 5px black solid;
+  transform: scale(1.15);
 }
 
 .name{
@@ -217,6 +217,6 @@ ul {
   line-height: normal;
   text-align: center;
   border: 5px solid black;
-  margin-top: 15px;
+  margin-top: 75px;
   padding: 10px;
 }
