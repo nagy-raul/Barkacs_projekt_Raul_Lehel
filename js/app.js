@@ -7,17 +7,10 @@ function topnavResponsive() {
     }
 }
 
-let op1 = document.querySelector("#op1");
-let op2 = document.querySelector("#op2");
-let op3 = document.querySelector("#op3");
-let op4 = document.querySelector("#op4");
-
 let blog1 = document.querySelector("#painting");
 let blog2 = document.querySelector("#henger");
 let blog3 = document.querySelector("#brush");
 let blog4 = document.querySelector("#yinyang");
-
-
 
 
 function onSelect(el){
