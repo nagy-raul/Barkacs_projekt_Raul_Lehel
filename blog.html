@@ -26,41 +26,57 @@
     </header>
 
     <main>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="card my-3 col-6">
-            <img src="./images/07c-painting-ceilings.jpg" alt="painting" class="mt-3">
-            <div class="container">
-              <h4 class="mt-3"><b>Először a mennyezetet fessük aztán a falakat</b></h4> 
+      <div class="container mt-3">
+        <div class="row">
+          <select class="form-select" aria-label="Default select example">
+            <option value="1" selected id="op1">Minden év</option>
+            <option value="2" id="op2">2024</option>
+            <option value="3" id="op3">2023</option>
+            <option value="4" id="op4">2022</option>
+          </select>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col" id="painting">
+            <div class="card">
+              <img src="./images/07c-painting-ceilings.jpg" alt="painting" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title"><b>Először a mennyezetet fessük aztán a falakat</b></h4> 
               <button type="button" class="btn btn-outline-dark mb-3" onclick="location.href='./blog_posts/mennyezet.html';">Elolvasnám</button>
             </div>
-          </div>
-
-          <div class="card my-3 col-6">
-            <img src="./images/Henger2.png" alt="henger" class="mt-3">
-            <div class="container">
-              <h4 class="mt-3"><b>Hengerelés és a megfelelő henger kiválasztása</b></h4> 
-              <button type="button" class="btn btn-outline-dark mb-3" onclick="location.href='./blog_posts/hengereles.html';">Elolvasnám</button>
             </div>
           </div>
-        </div>
 
-        <div class="row justify-content-center">
-          <div class="card my-3 col-6">
-            <img src="./images/Brush2.png" alt="brush" class="mt-3">
-            <div class="container">
-              <h4 class="mt-3"><b>Festés ecsettel - hol alkalmazzuk?</b></h4> 
+          <div class="col" id="henger">
+            <div class="card">
+              <img src="./images/Henger2.png" alt="henger" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title"><b>Hengerelés és a megfelelő henger kiválasztása</b></h4> 
+                <button type="button" class="btn btn-outline-dark mb-3" onclick="location.href='./blog_posts/hengereles.html';">Elolvasnám</button>
+              </div>
+          </div>
+          </div>
+
+          <div class="col" id="brush">
+            <div class="card">
+              <img src="./images/Brush2.png" alt="brush" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title"><b>Festés ecsettel - hol alkalmazzuk?</b></h4> 
               <button type="button" class="btn btn-outline-dark mb-3 mx-auto" onclick="location.href='./blog_posts/festes.html';">Elolvasnám</button>
             </div>
+            </div>
           </div>
 
-          <div class="card my-3 col-6">
-            <img src="./images/light_darkness.png" alt="yinyang" class="mt-3">
-            <div class="container">
-              <h4 class="mt-3"><b>Ha túl sötét, vagy túl világos a festék - mit tegyünk?</b></h4> 
+          <div class="col" id="yinyang">
+            <div class="card">
+            <img src="./images/light_darkness.png" alt="yinyang" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title"><b>Ha túl sötét, vagy túl világos a festék - mit tegyünk?</b></h4> 
               <button type="button" class="btn btn-outline-dark mb-3" onclick="location.href='./blog_posts/vilagos.html';">Elolvasnám</button>
             </div>
           </div>
+        </div>
 
         </div>
       </div>
